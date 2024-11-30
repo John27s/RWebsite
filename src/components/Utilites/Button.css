@@ -1,0 +1,26 @@
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.button button{
+    background-color: rgb(202, 236, 245);
+    border-color: rgb(222, 147, 119);
+    font-size: 20px;
+    color: rgb(238, 102, 52);
+    display: flex;
+    padding: 12px;
+    flex-wrap: wrap;
+    width: 200px;
+    justify-content: center;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: 50px;
+}
+.button button:hover{
+    background-color:ghostwhite ;
+}
+
+

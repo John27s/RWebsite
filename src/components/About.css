@@ -1,0 +1,15 @@
+.about{
+    background-color: rgb(249, 244, 249);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about p {
+    font-size: 40px;
+    color: orangered;
+    padding: 100px;
+    width: 130vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
