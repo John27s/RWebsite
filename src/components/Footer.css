@@ -1,0 +1,93 @@
+.Footer{
+    background-color: rgb(193, 177, 166);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Deatils{
+    list-style: none;
+    padding: 12px;
+    margin: 2%;  
+}
+.logo1{
+    color: rgb(99, 177, 99);
+    text-decoration: none;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 8%;
+    display: flex;
+    font-weight: 550;
+    justify-content: center;
+    align-items: center;
+}
+#logo1{
+    color: rgb(99, 177, 99);
+    text-decoration: none;
+    font-size: 20px;
+    width: 20px;
+    height: 50px;
+    margin-bottom: 8%;
+    display: flex;
+    font-weight: 550;
+}
+#Email{
+    height: 40px;
+    text-align: center;
+}
+#Number{
+    height: 40px;
+    text-align: center;
+}
+#Addres{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+.Products{
+    list-style: none;
+    padding: 12px;
+    margin: 2%;
+    text-align: center;
+    font-size: 16px;
+}
+#Products{
+    height: 40px;
+    color: orangered;
+    font-size: 16px;
+}
+#GourmetDelights{
+    height: 40px;
+
+}
+#FruitTreats{
+    height: 40px;
+
+}
+#Bestsellers{
+    height: 40px;
+
+}
+.Socialmedia{
+    list-style: none;
+    padding: 12px;
+    margin: 2%;
+    justify-content: center;
+    
+}
+#SocialMedia{
+    font-size: 16px;
+    height: 40px;
+    width: 100px;
+    color: orangered;
+    text-align: center;
+
+}
+.cart1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    justify-content: space-around;
+    
+}

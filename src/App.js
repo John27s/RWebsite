@@ -3,7 +3,8 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Maindiv from './components/Maindiv';
-import Categories from './components/Categories/Categories';
+import Categories from './components/Categories';
+import Footer from './components/Footer';
 
 
 
@@ -15,8 +16,8 @@ function App(){
         <Maindiv />
         <About />
         <Categories />
-
-
+        <About />
+        <Footer />
         </div>
     );
 }
