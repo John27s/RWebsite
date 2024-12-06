@@ -1,11 +1,10 @@
 import React from "react";
 import './About.css';
 
-function About (){
+function About ({Color,text,bgColor}){
     return(
-        <div className='about'>
-            <p>Indulge in the delicate dance of flavors with our exquisite macarons. 
-                At Blissful Bites, we craft each macaron with love and precision, ensuring a euphoric experience with every bite.</p>
+        <div className={`about ${bgColor}`} style={{color: Color}}>
+            <p>{text}</p>
         </div>
     );
 }

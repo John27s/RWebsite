@@ -32,8 +32,8 @@ function Footer(){
                         </div>
                     <div className="cart1">   
                     <li><a href="https://m.facebook.com/" id="cart1"><img src= {facebook} height="20px" width="20px"></img></a></li>
-                    <li><a href="https://www.instagram.com/" id="cart1"><img src= {twitter}  height="20px" width="20px"></img></a></li>
-                    <li><a href="https://twitter.com/?lang=en" id="cart1"><img src= {instagram}  height="20px" width="20px"></img></a></li>
+                    <li><a href="https://www.instagram.com/" id="cart1"><img src= { instagram}  height="20px" width="20px"></img></a></li>
+                    <li><a href="https://twitter.com/?lang=en" id="cart1"><img src= {twitter}  height="20px" width="20px"></img></a></li>
                     </div> 
                     </div>
             </div>

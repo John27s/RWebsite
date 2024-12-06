@@ -39,6 +39,9 @@
     font-size: 16px;
     text-decoration: none;
 }
+#container li a:hover{
+    color: green;
+}
 .Cart{
     display: flex;
     flex-wrap: wrap;

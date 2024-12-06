@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 import logo from '../Images/Logo-vector-lujossjl.svg';
 import logo1 from '../Images/cart.png';
@@ -8,14 +9,14 @@ function Nav(){
     return (
         <div>
         <div className='TopNav'>
-            <a href='#Blissful Bites' id='logo'><img src={logo}></img>Blissful Bites</a>
+            <Link to='/' id='logo'><img src={logo}></img>Blissful Bites</Link>
             <ul id='container'>
-                <li><a href='Gourmet Delights'>Gourmet Delights</a></li>
-                <li><a href='Fruit Treats'>Fruit Treats</a></li>
-                <li><a href='New'>New</a></li>
-                <li><a href='BestSellers'>BestSellers</a></li>
+                <li><Link to='/GourmetDelights'>Gourmet Delights</Link></li>
+                <li><Link to='/FruitTreats'>Fruit Treats</Link></li>
+                <li><Link to='/New'>New</Link></li>
+                <li><Link to='/BestSellers'>BestSellers</Link></li>
             </ul>
-            <div className='Cart'><a><img src={logo1} ></img></a>            
+            <div className='Cart'><a href='#'><img src={logo1} ></img></a>            
             </div>
         </div>
         
@@ -24,3 +25,4 @@ function Nav(){
 }
 
 export default Nav;
+

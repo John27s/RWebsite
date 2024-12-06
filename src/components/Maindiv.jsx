@@ -15,7 +15,8 @@ function Maindiv() {
                     <h1>Savor the Artistry of Handcraft</h1>
                     <img src= {product1} id='img1'></img>
                     <p>Step into our world where every page 
-                    holds the promise of new ideas and endless possibilities.<Button /></p>  
+                    holds the promise of new ideas and endless possibilities.<Button /></p>
+                    <div className='Button'></div>  
                 </div>
             </div>
         </div>

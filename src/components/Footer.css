@@ -1,5 +1,5 @@
 .Footer{
-    background-color: rgb(193, 177, 166);
+    background-color: rgb(249, 244, 249);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -11,7 +11,6 @@
     margin: 2%;  
 }
 .logo1{
-    color: rgb(99, 177, 99);
     text-decoration: none;
     font-size: 20px;
     width: 100px;
@@ -23,7 +22,7 @@
     align-items: center;
 }
 #logo1{
-    color: rgb(99, 177, 99);
+    color: rgb(45, 132, 45);
     text-decoration: none;
     font-size: 20px;
     width: 20px;
@@ -57,17 +56,23 @@
     color: orangered;
     font-size: 16px;
 }
+#GourmetDelights:hover{
+    color: green;
+}
 #GourmetDelights{
     height: 40px;
-
 }
 #FruitTreats{
     height: 40px;
-
+}
+#FruitTreats:hover{
+    color: green;
 }
 #Bestsellers{
     height: 40px;
-
+}
+#Bestsellers:hover{
+    color: green;
 }
 .Socialmedia{
     list-style: none;
@@ -82,12 +87,9 @@
     width: 100px;
     color: orangered;
     text-align: center;
-
 }
 .cart1{
     display: flex;
     flex-wrap: wrap;
-    width: 100px;
     justify-content: space-around;
-    
 }

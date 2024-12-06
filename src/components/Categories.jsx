@@ -1,8 +1,8 @@
 import React from "react";
 import './/Categories.css';
 import product2 from '../Images/product-2.png';
-import product3 from '../Images/product-3.png';
-import product4 from '../Images/product-5.png';
+import product3 from '../Images/product-4.png';
+import product4 from '../Images/product-6.png';
 
 
 function Categories(){
