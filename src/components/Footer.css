@@ -74,6 +74,37 @@
 #Bestsellers:hover{
     color: green;
 }
+.Signin{
+    list-style: none;
+    padding: 12px;
+    margin: 2%;
+    text-align: center;
+    font-size: 16px;
+}
+#input {
+        height: 20px;
+        width: 130px;
+        color: green;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        border-color: pink;
+}
+.Signin button{
+        color: orangered;
+        border-radius: 5px;
+        border-color: white;
+        width: 80px;
+        height: 30px;
+        margin: 10%;
+
+}
+.Signin button:hover{
+    color: white;
+    background-color:orangered;
+
+}
 .Socialmedia{
     list-style: none;
     padding: 12px;

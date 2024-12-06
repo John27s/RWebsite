@@ -4,10 +4,10 @@ import product5 from '../Images/product-1.png';
 import product6 from '../Images/product-3.png';
 import product7 from '../Images/product-6.png';
 
-function Product(){
+function Product({titile}){
     return(
         <div className="GDProducts">
-                <div id="Cat1"><h3>Gourmet Delights</h3></div>
+                <div id="Cat1"><h3>{titile}</h3></div>
                     <div className="product3">
                     <img src= {product5} id='img14'></img>
                     <div id="GD1">Fruit Symphony</div>

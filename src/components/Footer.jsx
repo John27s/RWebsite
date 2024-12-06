@@ -4,6 +4,7 @@ import facebook from '../Images/facebook.png';
 import twitter from '../Images/twitter.png';
 import instagram from '../Images/instagram.png';
 import logo from '../Images/Logo-vector-lujossjl.svg';
+import Button from "./Utilites/Button";
 
 
 
@@ -26,6 +27,11 @@ function Footer(){
                     <li><p id="FruitTreats">Fruit Treats</p></li>
                     <li><p id="Bestsellers">Bestsellers</p></li>
                     </div>
+                <div className="Signin">
+                    <p id="Products">SignIn</p>
+                    <input type="text"id="input"></input>
+                    <button>Submit</button>
+                </div>
                 <div className="Socialmedia">
                     <div>
                         <li><p id="SocialMedia">Social Media</p></li>

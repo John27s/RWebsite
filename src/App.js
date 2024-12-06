@@ -7,7 +7,7 @@ import Maindiv from './components/Maindiv';
 import Categories from './components/Categories';
 import Footer from './components/Footer';
 import Product from './components/Product';
-import {BrowserRouter as Router, Switch, Route, Link, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
 function App(){
@@ -18,10 +18,10 @@ function App(){
             
                 <Routes>
                     <Route path='/'element={ <Maindiv />} />
-                    <Route path='/FruitTreats'element={<Product />} />
-                    <Route path='/New'element={<Product />} />
-                    <Route path='/BestSellers'element={<Product />} />
-                    <Route path='/GourmetDelights'element={<Product />} />
+                    <Route path='/FruitTreats'element={<Product titile={"Fruit Treats"} />} />
+                    <Route path='/New'element={<Product titile={"New"}/>} />
+                    <Route path='/BestSellers'element={<Product titile={"Best Sellers"}/>} />
+                    <Route path='/GourmetDelights'element={<Product titile={"Gourmet Delights"}/>} />
 
                 </Routes>
                 <About Color={"orangered"} text={"Indulge in the delicate dance of flavors with our exquisite macarons. At Blissful Bites, we craft each macaron with love and precision, ensuring a euphoric experience with every bite."} bgColor={"orangered"}/>

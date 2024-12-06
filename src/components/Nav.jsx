@@ -16,7 +16,7 @@ function Nav(){
                 <li><Link to='/New'>New</Link></li>
                 <li><Link to='/BestSellers'>BestSellers</Link></li>
             </ul>
-            <div className='Cart'><a href='#'><img src={logo1} ></img></a>            
+            <div className='Cart'><a href='#Cart'><img src={logo1} ></img></a>            
             </div>
         </div>
         
