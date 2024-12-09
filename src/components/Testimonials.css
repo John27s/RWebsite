@@ -1,0 +1,79 @@
+.GDProducts1{
+    width: 100%;
+    max-height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#OP2{
+    margin-left: 5%;
+    color: orangered;
+    margin-top: 5%;
+}
+#Cat2{
+    color: orangered;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product6{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.product7{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.product8{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#test-img{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+#GD3{
+    color: orangered;
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#GD4{
+    color: green;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+

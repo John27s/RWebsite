@@ -92,18 +92,17 @@
         border-color: pink;
 }
 .Signin button{
-        color: orangered;
         border-radius: 5px;
         border-color: white;
         width: 80px;
         height: 30px;
         margin: 10%;
-
+        color: white;
+        background-color:orangered;
 }
 .Signin button:hover{
-    color: white;
-    background-color:orangered;
-
+    color: black;
+    background-color: rgb(67, 192, 67);
 }
 .Socialmedia{
     list-style: none;

@@ -14,7 +14,7 @@ function Nav(){
                 <li><Link to='/GourmetDelights'>Gourmet Delights</Link></li>
                 <li><Link to='/FruitTreats'>Fruit Treats</Link></li>
                 <li><Link to='/New'>New</Link></li>
-                <li><Link to='/BestSellers'>BestSellers</Link></li>
+                <li><Link to='/Bestsellers'>Bestsellers</Link></li>
             </ul>
             <div className='Cart'><a href='#Cart'><img src={logo1} ></img></a>            
             </div>

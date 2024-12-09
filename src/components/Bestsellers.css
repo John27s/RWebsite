@@ -1,0 +1,72 @@
+.GDProducts{
+    width: 100%;
+    max-height: 40%;
+    background-color: rgb(249, 244, 249);
+    display: flex;
+    flex-wrap: wrap;
+}
+#OP1{
+    margin-left: 5%;
+    color: orangered;
+    margin-top: 5%;
+}
+#Cat1{
+    color: orangered;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product3{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.product4{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+.product5{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+#img14{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+#GD1{
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#GD2{
+    color: green;
+    font-size: 20px;
+    width: 300px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
