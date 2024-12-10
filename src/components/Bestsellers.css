@@ -1,49 +1,52 @@
-.GDProducts{
+.Bestsellers{
     width: 100%;
-    max-height: 40%;
+    max-height: 50%;
     background-color: rgb(249, 244, 249);
     display: flex;
     flex-wrap: wrap;
 }
-#OP1{
-    margin-left: 5%;
+#OP3{
+    margin-left: 10%;
     color: orangered;
     margin-top: 5%;
 }
-#Cat1{
+#Cat3{
     color: orangered;
     height: 100px;
     width: 100%;
     font-size: 40px;
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 10%;
     display: flex;
     flex-wrap: wrap;
 }
-.product3{
+.product33{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    margin: 2%;
+    margin-top: 10px;
+    margin-left: 10%;
 }
-.product4{
+.product44{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    margin: 2%;
+    margin-top: 10px;
 }
-.product5{
+.product55{
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    margin: 2%;
+    margin-top: 10px;
 }
 #img14{
     height: 80%;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10%;
+}
+#img14:hover{
+    transform: scale(1.1);
 }
 #GD1{
     color: orangered;
@@ -54,13 +57,12 @@
     margin-left: 10%;
 }
 #GD2{
-    color: green;
+    color: orangered;
     font-size: 20px;
     width: 300px;
     font-weight: 600;
     margin-bottom: 1px;
-    margin-top: 10px;
-    margin-left: 10%;
+
 }
 
 

@@ -74,7 +74,7 @@
 #Bestsellers:hover{
     color: green;
 }
-.Signin{
+.SignUp{
     list-style: none;
     padding: 12px;
     margin: 2%;
@@ -83,15 +83,16 @@
 }
 #input {
         height: 20px;
-        width: 130px;
-        color: green;
+        width: 150px;
+        color: rgb(134, 173, 134);
         font-size: 14px;
         display: flex;
         flex-wrap: wrap;
         border-radius: 5px;
         border-color: pink;
+        text-align: center;
 }
-.Signin button{
+.SignUp button{
         border-radius: 5px;
         border-color: white;
         width: 80px;
@@ -100,7 +101,7 @@
         color: white;
         background-color:orangered;
 }
-.Signin button:hover{
+.SignUp button:hover{
     color: black;
     background-color: rgb(67, 192, 67);
 }

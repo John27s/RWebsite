@@ -26,10 +26,10 @@ function Footer(){
                     <li><p id="FruitTreats">Fruit Treats</p></li>
                     <li><p id="Bestsellers">Bestsellers</p></li>
                     </div>
-                <div className="Signin">
+                <div className="SignUp">
                     <p id="Products">Sign Up</p>
-                    <input type="text"id="input"></input>
-                    <button type="email" value={'bites@gmail.com'}>Submit</button>
+                    <input type="text" placeholder = "your@email.com" id="input"></input>
+                    <button>Submit</button>
                 </div>
                 <div className="Socialmedia">
                     <div>

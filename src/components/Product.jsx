@@ -6,7 +6,8 @@ import product7 from '../Images/product-6.png';
 
 function Product({titile}){
     return(
-        <div className="GDProducts">
+        <div className="Product">
+            <div className="Productt">
                 <div id="Cat1"><h3>{titile}</h3></div>
                     <div className="product3">
                     <img src= {product5} id='img14'></img>
@@ -23,7 +24,8 @@ function Product({titile}){
                     <div id="GD1">Matcha Melody</div>
                     <div id="GD2">$ 3.15</div>
                 </div>
-                </div>         
+                </div>  
+            </div>                
     );
 }
 
