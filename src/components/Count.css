@@ -1,0 +1,18 @@
+.Counter{
+    height: 80px;
+    width: 100px;
+    margin-top: 6%;
+    justify-content: space-around;
+}
+.buttons button{
+    margin-top: 20%;
+    margin-bottom: 2%;
+    width: 30px;
+    font-size: 18px;
+    color: orangered;
+}
+.buttons button:hover{
+    background-color: rgb(132, 192, 132);
+    border-color: rgb(132, 192, 132);
+    color: black;
+}
