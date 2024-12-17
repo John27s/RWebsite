@@ -6,10 +6,11 @@
 }
 .buttons button{
     margin-top: 20%;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
     width: 30px;
     font-size: 18px;
     color: orangered;
+    margin-left: 12%;
 }
 .buttons button:hover{
     background-color: rgb(132, 192, 132);
